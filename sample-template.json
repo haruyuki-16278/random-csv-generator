@@ -1,0 +1,27 @@
+{
+  "age": {
+    "type": "number",
+    "range": {
+      "min": 18,
+      "max": 65
+    }
+  },
+  "name": {
+    "type": "regexp",
+    "regexp": "[A-Z][a-z]+"
+  },
+  "prefecture": {
+    "type": "literal",
+    "values": [
+      "東京都",
+      "大阪府",
+      "北海道",
+      "福岡県",
+      "沖縄県"
+    ]
+  },
+  "constant": {
+    "type": "constant",
+    "value": "constant"
+  }
+}
